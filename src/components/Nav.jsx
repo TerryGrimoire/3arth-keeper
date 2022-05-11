@@ -16,6 +16,15 @@ function Nav() {
       </Link>
 
       <ul className="navbar_links_mt">
+        <li>
+          <Link
+            to="*"
+            className="err404_hidden"
+            onClick={() => setShowLinks(!showlinks)}
+          >
+            Error 404
+          </Link>
+        </li>
         <li className="navbar_item_mt">
           <Link
             to="/"

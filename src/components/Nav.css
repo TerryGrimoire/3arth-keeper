@@ -161,3 +161,8 @@
     transform: rotate(-40deg);
   }
 }
+
+.err404_hidden{
+  color: black;
+  cursor: none;
+}
