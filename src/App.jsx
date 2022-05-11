@@ -28,7 +28,7 @@ function App() {
           <Route path="/Faq" element={<FaqList />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Engagement" element={<Engagement />} />
-          <Route path="/*" element={<Err404 />} />
+          <Route path="*" element={<Err404 />} />
         </Routes>
       </div>
     </Router>
