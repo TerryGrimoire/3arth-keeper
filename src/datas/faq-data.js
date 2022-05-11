@@ -29,7 +29,7 @@ const faqData = [
   {
     id: 4,
     question: "C’est quoi l’érosion de la biodiversité?",
-    answer1:
+    answer:
       "On considère l taux d’extinction « normal » des espèces comme inférieur à dix espèces par an sur un million. Or, le taux actuel d’extinction planétaire serait cent à mille fois supérieur à l'échelle de la planète. Ces disparitions ont des impacts majeurs sur les écosystèmes et sur les fonctions qui ne sont plus remplies par les espèces disparues.",
     open: false,
   },
