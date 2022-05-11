@@ -64,21 +64,7 @@ function Engagement() {
       </h1>
       <h3> Votre niveau engagement actuel : </h3>
       <h6>{Math.round((100 * getEngage()) / selection.length)} %</h6>
-      <div
-        className="fb-share-button"
-        data-href="https://3arthkeeper.netlify.app"
-        data-layout="button"
-        data-size="small"
-      >
-        <a
-          target="_blank"
-          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F3arthkeeper.netlify.app%2F&amp;src=sdkpreparse"
-          className="fb-xfbml-parse-ignore"
-          rel="noreferrer"
-        >
-          Partager
-        </a>
-      </div>
+  
       <Button categories={categories} handleClick={handleClick} />
       <Filter value={value} handleValue={setValue} />
       {selection
