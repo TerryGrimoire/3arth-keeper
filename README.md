@@ -6,7 +6,7 @@ Our second project at the Wild Code School. We now have to use React to create a
 
 ### APIs and Data
 
-We fetched data from
+We fetched data from https://global-warming.org/
 
 ### Deployment
 
