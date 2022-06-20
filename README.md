@@ -1,4 +1,4 @@
-# 3arth-keeper
+# 🌍 3arth-keeper 🌍
 
 ### About this project
 
